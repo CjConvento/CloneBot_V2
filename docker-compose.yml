@@ -7,5 +7,5 @@ services:
     environment:
       - CONFIG_FILE_URL=${CONFIG_FILE_URL}
     ports:
-      - 22:22
+      - 83:83
     restart: unless-stopped
